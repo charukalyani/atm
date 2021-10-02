@@ -4,9 +4,9 @@ import string
 import os
 
 # creatinga lists of users, their PINs and bank statements
-users = ['user1', 'user2', 'user3']
-pins = ['1111', '2222', '3333']
-amounts = [1000, 2000, 3000]
+users = ['user1', 'user2', 'user3','vin']
+pins = ['1111', '2222', '3333','1133']
+amounts = [1000, 2000, 3000, 9999]
 count = 0
 # while loop checks existance of the enterd username
 while True:
