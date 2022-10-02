@@ -4,7 +4,7 @@ import string
 import os
 
 # creatinga lists of users, their PINs and bank statements
-users = ['user1', 'user2', 'user3','vin','charu']
+users = ['user1', 'user2', 'user3','vinkum','charu']
 pins = ['1111', '2222', '3333','1133','1429']
 amounts = [1000, 2000, 3000, 9999, 8000]
 count = 0
