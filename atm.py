@@ -4,13 +4,13 @@ import string
 import os
 
 # creatinga lists of users, their PINs and bank statements
-users = ['user1', 'user2', 'user3','vinkum','charu']
+users = ['user1', 'user2', 'user3','user5','user6']
 pins = ['1111', '2222', '3333','1133','1429']
 amounts = [1000, 2000, 3000, 9999, 8000]
 count = 0
 # while loop checks existance of the enterd username
 while True:
-	user = input('\nENTER USER NAME: ')
+	user = input('\nENTER USERNAME: ')
 	user = user.lower()
 	if user in users:
 		if user == users[0]:
@@ -70,6 +70,30 @@ while count < 3:
 				print('***********')
 				print('-----------')
 				print()
+		
+		if user == 'user4':
+			if pin == pins[3]:
+				break
+			else:
+				count += 1
+				print('-----------')
+				print('***********')
+				print('INVALID PIN')
+				print('***********')
+				print('-----------')
+				print()
+				
+		if user == 'user5':
+			if pin == pins[4]:
+				break
+			else:
+				count += 1
+				print('-----------')
+				print('***********')
+				print('INVALID PIN')
+				print('***********')
+				print('-----------')
+				print()
 	else:
 		print('------------------------')
 		print('************************')
@@ -96,7 +120,7 @@ print('-------------------------')
 print()
 print('--------------------------')
 print('**************************')	
-print(str.capitalize(users[n]), 'welcome to ATM')
+print(str.capitalize(users[n]), 'Welcome to ATM')
 print('**************************')
 print('----------ATM SYSTEM-----------')
 # Main menu
