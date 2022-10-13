@@ -10,7 +10,7 @@ amounts = [1000, 2000, 3000]
 count = 0
 # while loop checks existance of the enterd username
 while True:
-	user = input('\nENTER USER Name: ')
+	user = input('\nENTER USER NAME: ')
 	user = user.lower()
 	if user in users:
 		if user == users[0]:
@@ -31,7 +31,7 @@ while True:
 while count < 3:
 	print('------------------')
 	print('******************')
-	pin = str(getpass.getpass('PLEASE ENTER PIN: '))
+	pin = str(getpass.getpass('PLEASE ENTER YOUR PIN: '))
 	print('******************')
 	print('------------------')
 	if pin.isdigit():
